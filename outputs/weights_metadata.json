@@ -1,0 +1,224 @@
+{
+  "format": "idx_val_memmap_v1",
+  "index_file": "C:\\Users\\laraa\\OneDrive\\Desktop\\portf\\developer-portfolio-main\\LEO\\python\\..\\outputs\\weights_indices.bin",
+  "value_file": "C:\\Users\\laraa\\OneDrive\\Desktop\\portf\\developer-portfolio-main\\LEO\\python\\..\\outputs\\weights_values.bin",
+  "index_dtype": "int32",
+  "value_dtype": "float32",
+  "layers": [
+    {
+      "name": "conv1",
+      "kind": "conv",
+      "out_channels": 8,
+      "in_channels": 1,
+      "kernel": [
+        3,
+        3
+      ],
+      "stride": [
+        1,
+        1
+      ],
+      "padding": [
+        1,
+        1
+      ],
+      "out_hw": [
+        16,
+        16
+      ],
+      "base_offset": 0,
+      "bias": [
+        -0.17179299890995026,
+        0.11031803488731384,
+        0.43885180354118347,
+        0.23522153496742249,
+        -0.031994324177503586,
+        0.039532698690891266,
+        0.33549273014068604,
+        0.4195396900177002
+      ],
+      "channel_segments": [
+        {
+          "offset": 0,
+          "length": 5
+        },
+        {
+          "offset": 5,
+          "length": 4
+        },
+        {
+          "offset": 9,
+          "length": 6
+        },
+        {
+          "offset": 15,
+          "length": 7
+        },
+        {
+          "offset": 22,
+          "length": 7
+        },
+        {
+          "offset": 29,
+          "length": 3
+        },
+        {
+          "offset": 32,
+          "length": 6
+        },
+        {
+          "offset": 38,
+          "length": 5
+        }
+      ],
+      "dense_weights": 72
+    },
+    {
+      "name": "conv2",
+      "kind": "conv",
+      "out_channels": 16,
+      "in_channels": 8,
+      "kernel": [
+        3,
+        3
+      ],
+      "stride": [
+        1,
+        1
+      ],
+      "padding": [
+        1,
+        1
+      ],
+      "out_hw": [
+        16,
+        16
+      ],
+      "base_offset": 43,
+      "bias": [
+        0.0772571861743927,
+        0.2003752738237381,
+        -0.11697040498256683,
+        0.12987421452999115,
+        -0.0024853067006915808,
+        -0.040217116475105286,
+        -0.13626959919929504,
+        -0.13791979849338531,
+        0.09220019727945328,
+        0.15460850298404694,
+        0.1471824198961258,
+        0.026675056666135788,
+        0.03781893104314804,
+        0.1475258469581604,
+        0.14162243902683258,
+        0.10117396712303162
+      ],
+      "channel_segments": [
+        {
+          "offset": 0,
+          "length": 19
+        },
+        {
+          "offset": 19,
+          "length": 32
+        },
+        {
+          "offset": 51,
+          "length": 4
+        },
+        {
+          "offset": 55,
+          "length": 23
+        },
+        {
+          "offset": 78,
+          "length": 25
+        },
+        {
+          "offset": 103,
+          "length": 16
+        },
+        {
+          "offset": 119,
+          "length": 7
+        },
+        {
+          "offset": 126,
+          "length": 4
+        },
+        {
+          "offset": 130,
+          "length": 39
+        },
+        {
+          "offset": 169,
+          "length": 37
+        },
+        {
+          "offset": 206,
+          "length": 34
+        },
+        {
+          "offset": 240,
+          "length": 18
+        },
+        {
+          "offset": 258,
+          "length": 23
+        },
+        {
+          "offset": 281,
+          "length": 27
+        },
+        {
+          "offset": 308,
+          "length": 31
+        },
+        {
+          "offset": 339,
+          "length": 31
+        }
+      ],
+      "dense_weights": 1152
+    },
+    {
+      "name": "fc",
+      "kind": "linear",
+      "out_channels": 2,
+      "in_channels": 256,
+      "kernel": [
+        1,
+        1
+      ],
+      "stride": [
+        1,
+        1
+      ],
+      "padding": [
+        0,
+        0
+      ],
+      "out_hw": [
+        1,
+        1
+      ],
+      "base_offset": 413,
+      "bias": [
+        0.025070305913686752,
+        0.04014306142926216
+      ],
+      "channel_segments": [
+        {
+          "offset": 0,
+          "length": 53
+        },
+        {
+          "offset": 53,
+          "length": 55
+        }
+      ],
+      "dense_weights": 512
+    }
+  ],
+  "total_nonzero": 521
+}
