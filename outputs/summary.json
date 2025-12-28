@@ -1,6 +1,10 @@
 {
+  "dataset": "synthetic",
+  "train_limit": 20000,
+  "test_limit": 5000,
   "dense_accuracy": 1.0,
   "sparse_accuracy": 1.0,
+  "quantized_accuracy": 1.0,
   "dense_macs": {
     "conv1": 18432,
     "conv2": 294912,
@@ -8,13 +12,17 @@
     "total": 313856
   },
   "sparse_macs": {
-    "conv1": 11008,
-    "conv2": 94720,
-    "fc": 108,
-    "total": 105836
+    "conv1": 11264,
+    "conv2": 94976,
+    "fc": 106,
+    "total": 106346
   },
   "max_output_diff": 9.5367431640625e-07,
   "macs_per_cycle": 4,
   "freq_mhz": 200,
-  "compressed_nonzeros": 521
+  "compressed_nonzeros": 521,
+  "prune_amount": 0.7,
+  "int8_weight_hex_single": "C:\\Users\\laraa\\OneDrive\\Desktop\\portf\\developer-portfolio-main\\LEO\\outputs\\weights_int8_single.hex",
+  "int8_weight_hex_packed2": "C:\\Users\\laraa\\OneDrive\\Desktop\\portf\\developer-portfolio-main\\LEO\\outputs\\weights_int8_packed.hex",
+  "int8_scales_json": "C:\\Users\\laraa\\OneDrive\\Desktop\\portf\\developer-portfolio-main\\LEO\\outputs\\int8_scales.json"
 }
