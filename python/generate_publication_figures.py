@@ -14,16 +14,13 @@ from typing import Dict, List, Tuple
 import matplotlib.pyplot as plt
 import numpy as np
 
-
 def load_summary(summary_path: str) -> Dict:
     with open(summary_path, "r", encoding="utf-8") as f:
         return json.load(f)
 
-
 def estimate_latency_us(mac_count: float, macs_per_cycle: int, freq_mhz: int) -> float:
     cycles = math.ceil(mac_count / macs_per_cycle) + 4
     return cycles / (freq_mhz * 1e6) * 1e6
-
 
 def latency_with_overheads(mac_count: float, sparsity: float, macs_per_cycle: int, freq_mhz: int) -> float:
     """
