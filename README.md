@@ -1,5 +1,5 @@
 # Paper Released - In Progress:
-Epistemic_Pruning_Detection_Auditor_Model (1).pdf
+[Epistemic Pruning Detection Auditor Model (PDF)](./Epistemic_Pruning_Detection_Auditor_Model.pdf)
 
 # Sparse-Aware FPGA Inference Demo
 
