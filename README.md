@@ -1,3 +1,6 @@
+# Paper Released - In Progress:
+Epistemic_Pruning_Detection_Auditor_Model (1).pdf
+
 # Sparse-Aware FPGA Inference Demo
 
 End-to-end flow that trains a tiny CNN in PyTorch, prunes weights, exports a compressed memory-mapped format for FPGA, simulates dense vs zero-skipping sparse inference, and provides synthesizable Verilog building blocks.
